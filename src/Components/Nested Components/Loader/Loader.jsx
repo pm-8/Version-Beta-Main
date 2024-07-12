@@ -1,7 +1,7 @@
 import "./Loader.css";
 const Loader = () => {
   return (
-    <div className="w-[100vw] h-[100vh] bg-[#000] flex flex-col justify-center items-center">
+    <div className="w-[100vw] h-[100vh] bg-[#1e1e20] flex flex-col justify-center items-center">
       <div className="socket">
         <div className="gel center-gel">
           <div className="hex-brick h1"></div>
