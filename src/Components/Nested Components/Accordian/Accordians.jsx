@@ -1,13 +1,46 @@
-import Accordion from "@mui/material/Accordion";
-import AccordionSummary from "@mui/material/AccordionSummary";
-import AccordionDetails from "@mui/material/AccordionDetails";
+import { styled } from "@mui/material/styles";
+import MuiAccordion from "@mui/material/Accordion";
+import MuiAccordionSummary from "@mui/material/AccordionSummary";
+import MuiAccordionDetails from "@mui/material/AccordionDetails";
 import Typography from "@mui/material/Typography";
-import "./Accordians.css";
 
 export default function AccordionExpandIcon() {
+  const Accordion = styled((props) => (
+    <MuiAccordion disableGutters elevation={0} square {...props} />
+  ))(() => ({
+    borderBottom: "2px solid #6054aa",
+    background: "transparent",
+    color: "#ddd",
+    marginBottom: "10px",
+    borderRadius: "8px",
+    "&::before": {
+      display: "none",
+    },
+  }));
+
+  const AccordionSummary = styled((props) => (
+    <MuiAccordionSummary {...props} />
+  ))(({ theme }) => ({
+    backgroundColor: "#333333c5",
+    borderRadius: "8px",
+    flexDirection: "row",
+    "& .MuiAccordionSummary-expandIconWrapper.Mui-expanded": {
+      transform: "rotate(180deg)",
+    },
+    "& .MuiAccordionSummary-content": {
+      marginLeft: theme.spacing(1),
+    },
+  }));
+
+  const AccordionDetails = styled(MuiAccordionDetails)(({ theme }) => ({
+    padding: theme.spacing(2),
+    backgroundColor: "#3333337b",
+    borderRadius: "8px",
+  }));
+
   return (
     <div>
-      <Accordion className="panel">
+      <Accordion>
         <AccordionSummary
           expandIcon={
             <svg
@@ -40,8 +73,8 @@ export default function AccordionExpandIcon() {
               </defs>
             </svg>
           }
-          aria-controls="panel1-content"
-          id="panel1-header"
+          aria-controls="panel1d-content"
+          id="panel1d-header"
         >
           <Typography>Who are we ?</Typography>
         </AccordionSummary>
@@ -54,7 +87,7 @@ export default function AccordionExpandIcon() {
           </Typography>
         </AccordionDetails>
       </Accordion>
-      <Accordion className="panel">
+      <Accordion>
         <AccordionSummary
           expandIcon={
             <svg
@@ -87,8 +120,8 @@ export default function AccordionExpandIcon() {
               </defs>
             </svg>
           }
-          aria-controls="panel2-content"
-          id="panel2-header"
+          aria-controls="panel2d-content"
+          id="panel2d-header"
         >
           <Typography>What are we looking in a team?</Typography>
         </AccordionSummary>
@@ -101,7 +134,7 @@ export default function AccordionExpandIcon() {
           </Typography>
         </AccordionDetails>
       </Accordion>
-      <Accordion className="panel">
+      <Accordion>
         <AccordionSummary
           expandIcon={
             <svg
@@ -134,8 +167,8 @@ export default function AccordionExpandIcon() {
               </defs>
             </svg>
           }
-          aria-controls="panel3-content"
-          id="panel3-header"
+          aria-controls="panel3d-content"
+          id="panel3d-header"
         >
           <Typography>What is version beta?</Typography>
         </AccordionSummary>
@@ -147,7 +180,7 @@ export default function AccordionExpandIcon() {
           </Typography>
         </AccordionDetails>
       </Accordion>
-      <Accordion className="panel">
+      <Accordion>
         <AccordionSummary
           expandIcon={
             <svg
@@ -180,8 +213,8 @@ export default function AccordionExpandIcon() {
               </defs>
             </svg>
           }
-          aria-controls="panel4-content"
-          id="panel4-header"
+          aria-controls="panel4d-content"
+          id="panel4d-header"
         >
           <Typography>Will Hackathon be conducted online?</Typography>
         </AccordionSummary>
@@ -192,7 +225,7 @@ export default function AccordionExpandIcon() {
           </Typography>
         </AccordionDetails>
       </Accordion>
-      <Accordion className="panel">
+      <Accordion>
         <AccordionSummary
           expandIcon={
             <svg
@@ -225,8 +258,8 @@ export default function AccordionExpandIcon() {
               </defs>
             </svg>
           }
-          aria-controls="panel5-content"
-          id="panel5-header"
+          aria-controls="panel5d-content"
+          id="panel5d-header"
         >
           <Typography>Who should participate?</Typography>
         </AccordionSummary>
@@ -238,7 +271,7 @@ export default function AccordionExpandIcon() {
           </Typography>
         </AccordionDetails>
       </Accordion>
-      <Accordion className="panel">
+      <Accordion>
         <AccordionSummary
           expandIcon={
             <svg
@@ -271,8 +304,8 @@ export default function AccordionExpandIcon() {
               </defs>
             </svg>
           }
-          aria-controls="panel6-content"
-          id="panel6-header"
+          aria-controls="panel6d-content"
+          id="panel6d-header"
         >
           <Typography>What is the goal of Hackathon?</Typography>
         </AccordionSummary>
@@ -283,7 +316,7 @@ export default function AccordionExpandIcon() {
           </Typography>
         </AccordionDetails>
       </Accordion>
-      <Accordion className="panel">
+      <Accordion>
         <AccordionSummary
           expandIcon={
             <svg
@@ -316,8 +349,8 @@ export default function AccordionExpandIcon() {
               </defs>
             </svg>
           }
-          aria-controls="panel7-content"
-          id="panel7-header"
+          aria-controls="panel7d-content"
+          id="panel7d-header"
         >
           <Typography>Number of members in a team?</Typography>
         </AccordionSummary>
@@ -329,7 +362,7 @@ export default function AccordionExpandIcon() {
           </Typography>
         </AccordionDetails>
       </Accordion>
-      <Accordion className="panel">
+      <Accordion>
         <AccordionSummary
           expandIcon={
             <svg
@@ -362,13 +395,15 @@ export default function AccordionExpandIcon() {
               </defs>
             </svg>
           }
-          aria-controls="panel8-content"
-          id="panel8-header"
+          aria-controls="panel8d-content"
+          id="panel8d-header"
         >
           <Typography>How would I know if I got selected?</Typography>
         </AccordionSummary>
         <AccordionDetails>
-          <Typography color="#72a5af">We&apos;ll mail you and let you know.</Typography>
+          <Typography color="#72a5af">
+            We&apos;ll mail you and let you know.
+          </Typography>
         </AccordionDetails>
       </Accordion>
       <Accordion className="panel">
@@ -404,8 +439,8 @@ export default function AccordionExpandIcon() {
               </defs>
             </svg>
           }
-          aria-controls="panel9-content"
-          id="panel9-header"
+          aria-controls="panel9d-content"
+          id="panel9d-header"
         >
           <Typography>How to participate?</Typography>
         </AccordionSummary>
@@ -416,7 +451,7 @@ export default function AccordionExpandIcon() {
           </Typography>
         </AccordionDetails>
       </Accordion>
-      <Accordion className="panel">
+      <Accordion>
         <AccordionSummary
           expandIcon={
             <svg
@@ -449,8 +484,8 @@ export default function AccordionExpandIcon() {
               </defs>
             </svg>
           }
-          aria-controls="panel10-content"
-          id="panel10-header"
+          aria-controls="panel10d-content"
+          id="panel10d-header"
         >
           <Typography>Cost for participation in Hackathon?</Typography>
         </AccordionSummary>
@@ -461,7 +496,7 @@ export default function AccordionExpandIcon() {
           </Typography>
         </AccordionDetails>
       </Accordion>
-      <Accordion className="panel">
+      <Accordion>
         <AccordionSummary
           expandIcon={
             <svg
@@ -494,8 +529,8 @@ export default function AccordionExpandIcon() {
               </defs>
             </svg>
           }
-          aria-controls="panel11-content"
-          id="panel11-header"
+          aria-controls="panel11d-content"
+          id="panel11d-header"
         >
           <Typography>What is selection procedure?</Typography>
         </AccordionSummary>
