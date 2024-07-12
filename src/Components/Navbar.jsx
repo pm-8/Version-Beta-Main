@@ -8,31 +8,31 @@ const Navbar = () => {
         <div className="flex items-center gap-12 font-medium text-lg">
           <a href="/" className="group">
             Home
-            <div className="w-0 h-[1px] bg-[#6054aa] group-hover:w-full transition-all duration-500"></div>
+            <div className="w-0 h-[1px] bg-[#6054aa] rounded-full group-hover:w-full transition-all duration-500"></div>
           </a>
           <a href="#about" className="group">
             About
-            <div className="w-0 h-[1px] bg-[#6054aa] group-hover:w-full transition-all duration-500"></div>
+            <div className="w-0 h-[1px] bg-[#6054aa] rounded-full group-hover:w-full transition-all duration-500"></div>
           </a>
           <a href="#schedule" className="group">
             Schedule
-            <div className="w-0 h-[1px] bg-[#6054aa] group-hover:w-full transition-all duration-500"></div>
+            <div className="w-0 h-[1px] bg-[#6054aa] rounded-full group-hover:w-full transition-all duration-500"></div>
           </a>
           <a href="#prizes" className="group">
             Prizes
-            <div className="w-0 h-[1px] bg-[#6054aa] group-hover:w-full transition-all duration-500"></div>
+            <div className="w-0 h-[1px] bg-[#6054aa] rounded-full group-hover:w-full transition-all duration-500"></div>
           </a>
           <a href="#gallery" className="group">
             Gallery
-            <div className="w-0 h-[1px] bg-[#6054aa] group-hover:w-full transition-all duration-500"></div>
+            <div className="w-0 h-[1px] bg-[#6054aa] rounded-full group-hover:w-full transition-all duration-500"></div>
           </a>
           <a href="#sponsors" className="group">
             Sponsors
-            <div className="w-0 h-[1px] bg-[#6054aa] group-hover:w-full transition-all duration-500"></div>
+            <div className="w-0 h-[1px] bg-[#6054aa] rounded-full group-hover:w-full transition-all duration-500"></div>
           </a>
           <a href="#faqs" className="group">
             FAQs
-            <div className="w-0 h-[1px] bg-[#6054aa] group-hover:w-full transition-all duration-500"></div>
+            <div className="w-0 h-[1px] bg-[#6054aa] rounded-full group-hover:w-full transition-all duration-500"></div>
           </a>
         </div>
       </div>
@@ -41,3 +41,4 @@ const Navbar = () => {
 };
 
 export default Navbar;
+
