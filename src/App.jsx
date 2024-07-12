@@ -8,38 +8,51 @@ import Gallery from "./Components/Gallery";
 import FAQs from "./Components/FAQs";
 import Footer from "./Components/Footer";
 import Line from "./Components/Nested Components/Line/Line";
+import Loader from "./Components/Nested Components/Loader/Loader";
 import "./App.css";
+import { useState } from "react";
 
 function App() {
+  const [loading, setLoading] = useState(true);
+  setTimeout(() => {
+    setLoading(false);
+  }, [6290]);
+
   return (
-    <>
-      <div className="w-[100%] app">
-      <Navbar />
+    <div>
+      {loading ? (
+        <Loader />
+      ) : (
+        <>
+          <div className="w-[100%] app">
+            <Navbar />
 
-      <Hero />
-      <Line />
+            <Hero />
+            <Line />
 
-      <About />
-      <Line />
+            <About />
+            <Line />
 
-      <Schedule />
-      <Line />
+            <Schedule />
+            <Line />
 
-      <Prizes />
-      <Line />
+            <Prizes />
+            <Line />
 
-      <Gallery />
-      <Line />
+            <Gallery />
+            <Line />
 
-      <Sponsors />
-      <Line />
+            <Sponsors />
+            <Line />
 
-      <FAQs />
-      <Line />
+            <FAQs />
+            <Line />
 
-      <Footer />
-      </div>
-    </>
+            <Footer />
+          </div>
+        </>
+      )}
+    </div>
   );
 }
 
