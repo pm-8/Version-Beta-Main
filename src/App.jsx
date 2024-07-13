@@ -7,8 +7,8 @@ import Sponsors from "./Components/Sponsors";
 import Gallery from "./Components/Gallery";
 import FAQs from "./Components/FAQs";
 import Footer from "./Components/Footer";
-import Line from "./Components/Other Components/Line/Line";
-import Loader from "./Components/Other Components/Loader/Loader";
+import Line from "./Components/Nested Components/Line/Line";
+import Loader from "./Components/Nested Components/Loader/Loader";
 import "./App.css";
 import { useState } from "react";
 
