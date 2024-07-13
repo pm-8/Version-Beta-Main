@@ -7,8 +7,8 @@ import Sponsors from "./Components/Sponsors";
 import Gallery from "./Components/Gallery";
 import FAQs from "./Components/FAQs";
 import Footer from "./Components/Footer";
-import Line from "./Components/Nested Components/Line/Line";
-import Loader from "./Components/Nested Components/Loader/Loader";
+import Line from "./Components/Other Components/Line/Line";
+import Loader from "./Components/Other Components/Loader/Loader";
 import "./App.css";
 import { useState } from "react";
 
@@ -25,6 +25,11 @@ function App() {
       ) : (
         <>
           <div className="w-[100%] app">
+            <div className="w-full h-full ">
+              <video autoPlay muted loop id="video-background">
+              <source src="/Images/bg9.mp4" type="video/mp4">
+              </source></video>
+            </div>
             <Navbar />
 
             <Hero />
