@@ -11,7 +11,7 @@ const Schedule = () => {
         <div className="flex justify-center">
           <img src="/Images/Group 13.svg" alt="" />
         </div>
-        <div className="absolute top-6 border border-[#07F8EA] rounded-lg w-[500px] h-[180px] p-4">
+        <div className="absolute top-6 border border-[#07F8EA] rounded-lg w-[500px] h-[180px] p-4 left-[-7.5vw]">
           <h1 className="text-[#07F8EA] text-3xl relative">Registration</h1>
           <p className="text-[#ccc] text-[13px] mt-4 font-normal">
             Version Beta is opening its doors for applications starting from
@@ -22,7 +22,7 @@ const Schedule = () => {
           </p>
           <div className="h-[1px] top-9 right-[8px] translate-x-[60px] w-[51px] bg-[#07F8EA] absolute"></div>
         </div>
-        <div className="absolute right-0 top-64 translate-y-6 border border-[#07F8EA] rounded-lg w-[500px] h-[180px] p-4">
+        <div className="absolute top-64 translate-y-6 border border-[#07F8EA] rounded-lg w-[500px] h-[180px] p-4 right-[-7.5vw]">
           <h1 className="text-[#07F8EA] text-3xl">Ideation</h1>
           <p className="text-[#ccc] text-[13px] mt-4 font-normal">
             Dive deep into current tech trends and challenges. Draw inspiration
@@ -32,7 +32,7 @@ const Schedule = () => {
           </p>
           <div className="h-[1px] w-[50px] left-[5px] absolute top-9 -translate-x-14 bg-[#07F8EA]"></div>
         </div>
-        <div className="absolute bottom-96 -translate-y-40 border border-[#07F8EA] rounded-lg w-[500px] h-[170px] p-4">
+        <div className="absolute bottom-96 -translate-y-40 border border-[#07F8EA] rounded-lg w-[500px] h-[170px] p-4 left-[-7.5vw]">
           <h1 className="text-[#07F8EA] text-3xl">Announcement</h1>
           <p className="text-[#ccc] text-[13px] mt-4 font-normal">
             After intense brainstorming and collaboration, Best ideas would be
@@ -41,7 +41,7 @@ const Schedule = () => {
           </p>
           <div className="h-[1px] top-[33px] right-[9px] translate-x-[60px] w-[51px] bg-[#07F8EA] absolute"></div>
         </div>
-        <div className="absolute right-0 bottom-56 border border-[#07F8EA] rounded-lg w-[500px] h-[180px] p-4">
+        <div className="absolute bottom-56 border border-[#07F8EA] rounded-lg w-[500px] h-[180px] p-4 right-[-7.5vw]">
           <h1 className="text-[#07F8EA] text-3xl">Team</h1>
           <p className="text-[#ccc] text-[13px] mt-4 font-normal">
             Collaboration is key as students bring together their unique skills
@@ -49,9 +49,9 @@ const Schedule = () => {
             upcoming challenges. Get ready to synergize and innovate with your
             peers as the codathon journey continues!
           </p>
-          <div className="h-[1px] w-[52px] left-[4px] absolute top-[34px] -translate-x-14 bg-[#07F8EA]"></div>
+          <div className="h-[1px] w-[20vw] left-[-17vw] absolute top-[34px] -translate-x-14 bg-[#07F8EA]"></div>
         </div>
-        <div className="absolute bottom-0 translate-y-16 border border-[#07F8EA] rounded-lg w-[500px] h-[180px] p-4">
+        <div className="absolute bottom-0 translate-y-16 border border-[#07F8EA] rounded-lg w-[500px] h-[180px] p-4 left-[-7.5vw]">
           <h1 className="text-[#07F8EA] text-3xl">Hackathon</h1>
           <p className="text-[#ccc] text-[13px] mt-4 font-normal">
             Every truly novel concept appears insane at first, so come present
