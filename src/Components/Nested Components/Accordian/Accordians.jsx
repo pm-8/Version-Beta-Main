@@ -34,7 +34,7 @@ export default function AccordionExpandIcon() {
 
   const AccordionDetails = styled(MuiAccordionDetails)(({ theme }) => ({
     padding: theme.spacing(2),
-    backgroundColor: "#3333335a",
+    backgroundColor: "#3333337b",
     borderRadius: "8px",
   }));
 
