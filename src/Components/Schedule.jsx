@@ -23,7 +23,7 @@ const Schedule = () => {
           </p>
           <div className="h-[1px] top-9 right-[8px] translate-x-[60px] w-[51px] bg-[#07F8EA] absolute"></div>
         </div>
-        <div className=""><h1 className="text-teal-50 absolute top-[3%] left-[55%] text-[30px] text-opacity-40 hover:blur-none hover:text-opacity-100 duration-300 ">25 Oct 2024</h1></div>
+        <div className=""><h1 className="text-teal-50 absolute top-[3%] left-[55%] text-[30px] text-opacity-40 hover:blur-none hover:text-opacity-100 duration-300 ">5 Oct 2024</h1></div>
         </div>
         <div>
         <div className="absolute top-64 translate-y-6 border border-[#07F8EA] rounded-lg w-[500px] h-[180px] p-4 left-[55.0%]  hover:bg-white hover:bg-opacity-10 duration-300">
@@ -36,7 +36,7 @@ const Schedule = () => {
           </p>
           <div className="h-[1px] w-[50px] left-[5px] absolute top-9 -translate-x-14 bg-[#07F8EA]"></div>
         </div>
-        <div className=""><h1 className="text-teal-50 absolute top-[22.5%] right-[55%] text-[30px] text-opacity-40 hover:blur-none hover:text-opacity-100 duration-300 ">25 Oct 2024</h1></div>
+        <div className=""><h1 className="text-teal-50 absolute top-[22.5%] right-[55%] text-[30px] text-opacity-40 hover:blur-none hover:text-opacity-100 duration-300 ">5 Oct 2024</h1></div>
         </div>
         <div>
         <div className="absolute bottom-96 -translate-y-40 border border-[#07F8EA] rounded-lg w-[500px] h-[170px] p-4 right-[55.0%]  hover:bg-white hover:bg-opacity-10 duration-300">
@@ -48,7 +48,7 @@ const Schedule = () => {
           </p>
           <div className="h-[1px] top-[33px] right-[9px] translate-x-[60px] w-[51px] bg-[#07F8EA] absolute"></div>
         </div>
-        <div className=""><h1 className="text-teal-50 absolute top-[46.5%] left-[55%] text-[30px] text-opacity-40 hover:blur-none hover:text-opacity-100 duration-300 ">25 Oct 2024</h1></div>        </div>
+        <div className=""><h1 className="text-teal-50 absolute top-[46.5%] left-[55%] text-[30px] text-opacity-40 hover:blur-none hover:text-opacity-100 duration-300 ">5 Oct 2024 - 25 Oct 2024</h1></div>        </div>
         <div>
         <div className="absolute bottom-56 border border-[#07F8EA] rounded-lg w-[500px] h-[180px] p-4 left-[55.0%]  hover:bg-white hover:bg-opacity-10">
           <h1 className="text-[#07F8EA] text-3xl">Team</h1>
@@ -60,7 +60,7 @@ const Schedule = () => {
           </p>
           <div className="h-[1px] w-[52px] left-[4px] absolute top-[34px] -translate-x-14 bg-[#07F8EA]"></div>
         </div>
-        <div className=""><h1 className="text-teal-50 absolute top-[70%] right-[55%] text-[30px] text-opacity-40 hover:blur-none hover:text-opacity-100 duration-300 ">25 Oct 2024</h1></div>
+        <div className=""><h1 className="text-teal-50 absolute top-[70%] right-[55%] text-[30px] text-opacity-40 hover:blur-none hover:text-opacity-100 duration-300 ">26 Oct 2024</h1></div>
         </div>
         <div>
         <div className="absolute bottom-0 translate-y-16 border border-[#07F8EA] rounded-lg w-[500px] h-[180px] p-4 right-[55.0%]  hover:bg-white hover:bg-opacity-10 duration-300">
@@ -72,7 +72,7 @@ const Schedule = () => {
           </p>
           <div className="h-[1px] top-[23px] right-[9px] translate-x-[60px] w-[51px] bg-[#07F8EA] absolute"></div>
         </div>
-        <div className=""><h1 className="text-teal-50 absolute top-[91.5%] left-[55%] text-[30px] text-opacity-40 hover:blur-none hover:text-opacity-100 duration-300 ">25 Oct 2024</h1></div>
+        <div className=""><h1 className="text-teal-50 absolute top-[91.5%] left-[55%] text-[30px] text-opacity-40 hover:blur-none hover:text-opacity-100 duration-300 ">3 Nov 2024</h1></div>
         </div>
       </div>
     </div>
