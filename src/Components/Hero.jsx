@@ -33,7 +33,7 @@ const Hero = () => {
           </div>
         </div>
         <div className="relative flex flex-col gap-6 items-center">
-          <p className="text-[#6054aa] text-[40px] text-center mt-24">
+          <p className="text-[#53d847] text-[40px] text-center mt-24">
             Register Now for Version Beta 7.0
           </p>
           <Button />
