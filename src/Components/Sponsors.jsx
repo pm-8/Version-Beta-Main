@@ -1,7 +1,7 @@
 const Sponsors = () => {
   return (
     <div id="sponsors" className="w-8/12 mx-auto mt-24 flex flex-col gap-16">
-      <h1 className="text-[#897be2] text-center text-[45px] uppercase font-bold">
+      <h1 className="text-[#897be2] text-center text-[45px] uppercase font-bold hover:scale-110 transition-transform duration-300">
         Sponsors
       </h1>
       <div className="grid grid-cols-3 grid-rows-3 gap-x-2 gap-y-6 place-items-center">
