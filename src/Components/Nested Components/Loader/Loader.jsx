@@ -1,7 +1,7 @@
 import "./Loader.css";
 const Loader = () => {
   return (
-    <div className="w-[100vw] h-[100vh] bg-[#1e1e20] flex flex-col justify-center items-center">
+    <div className="w-[100vw] h-[100vh] bg-[#1e1e20] flex flex-col justify-around items-center">
       <div className="socket">
         <div className="gel center-gel">
           <div className="hex-brick h1"></div>
@@ -191,8 +191,8 @@ const Loader = () => {
           <div className="hex-brick h3"></div>
         </div>
       </div>
-      <div className="flex gap-4 mt-96">
-        <div className="VERSION tracking-widest font-bold text-[60px]">
+      <div className="flex items-center justify-center gap-4 mt-96">
+        <div className="VERSION tracking-widest text-center font-bold text-[40px] md:text-[60px] lg:text-[60px] xl:text-[60px]">
           VERSION BETA 7.0
         </div>
       </div>
