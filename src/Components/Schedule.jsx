@@ -4,15 +4,14 @@ const Schedule = () => {
       id="schedule"
       className="w-9/12 mx-auto mt-24 flex flex-col gap-16 pb-20"
     >
-      <h1 className="text-[#897be2] text-center text-[45px] uppercase font-bold">
+      <h1 className="text-[#897be2] text-center text-[45px] uppercase font-bold hover:scale-110 transition-transform duration-300">
         Schedule
       </h1>
       <div className="relative">
         <div className="flex justify-center">
           <img src="/Images/Group 13.svg" alt="" />
         </div>
-        <div className="w-[100%]">
-        <div className="absolute top-6 border border-[#07F8EA] rounded-lg w-[500px] h-[180px] p-4 right-[55%] hover:bg-[#1e1e20] hover:backdrop-blur-md hover:bg-opacity-30 transition-all duration-300">
+        <div className="absolute top-6 border border-[#07F8EA] rounded-lg w-[500px] h-[180px] p-4 hover:bg-[#1e1e20] hover:backdrop-blur-md hover:bg-opacity-30 transition-all duration-300">
           <h1 className="text-[#07F8EA] text-3xl relative">Registration</h1>
           <p className="text-[#ccc] text-[13px] mt-4 font-normal">
             Version Beta is opening its doors for applications starting from
@@ -23,10 +22,7 @@ const Schedule = () => {
           </p>
           <div className="h-[1px] top-9 right-[8px] translate-x-[60px] w-[51px] bg-[#07F8EA] absolute"></div>
         </div>
-        <div className=""><h1 className="text-teal-50 absolute top-[3%] left-[55%] text-[30px] text-opacity-40 hover:blur-none hover:text-opacity-100 duration-300 ">5 Oct 2024</h1></div>
-        </div>
-        <div>
-        <div className="absolute top-64 translate-y-6 border border-[#07F8EA] rounded-lg w-[500px] h-[180px] p-4 left-[55.0%]  hover:bg-[#1e1e20] hover:backdrop-blur-md hover:bg-opacity-30 transition-all duration-300">
+        <div className="absolute right-0 top-64 translate-y-6 border border-[#07F8EA] rounded-lg w-[500px] h-[180px] p-4 hover:bg-[#1e1e20] hover:backdrop-blur-md hover:bg-opacity-30 transition-all duration-300">
           <h1 className="text-[#07F8EA] text-3xl">Ideation</h1>
           <p className="text-[#ccc] text-[13px] mt-4 font-normal">
             Dive deep into current tech trends and challenges. Draw inspiration
@@ -36,10 +32,7 @@ const Schedule = () => {
           </p>
           <div className="h-[1px] w-[50px] left-[5px] absolute top-9 -translate-x-14 bg-[#07F8EA]"></div>
         </div>
-        <div className=""><h1 className="text-teal-50 absolute top-[22.5%] right-[55%] text-[30px] text-opacity-40 hover:blur-none hover:text-opacity-100 duration-300 ">5 Oct 2024</h1></div>
-        </div>
-        <div>
-        <div className="absolute bottom-96 -translate-y-40 border border-[#07F8EA] rounded-lg w-[500px] h-[170px] p-4 right-[55.0%]   hover:bg-[#1e1e20] hover:backdrop-blur-md hover:bg-opacity-30 transition-all duration-300">
+        <div className="absolute bottom-96 -translate-y-40 border border-[#07F8EA] rounded-lg w-[500px] h-[170px] p-4 hover:bg-[#1e1e20] hover:backdrop-blur-md hover:bg-opacity-30 transition-all duration-300">
           <h1 className="text-[#07F8EA] text-3xl">Announcement</h1>
           <p className="text-[#ccc] text-[13px] mt-4 font-normal">
             After intense brainstorming and collaboration, Best ideas would be
@@ -48,9 +41,7 @@ const Schedule = () => {
           </p>
           <div className="h-[1px] top-[33px] right-[9px] translate-x-[60px] w-[51px] bg-[#07F8EA] absolute"></div>
         </div>
-        <div className=""><h1 className="text-teal-50 absolute top-[46.5%] left-[55%] text-[30px] text-opacity-40 hover:blur-none hover:text-opacity-100 duration-300 ">5 Oct 2024 - 25 Oct 2024</h1></div>        </div>
-        <div>
-        <div className="absolute bottom-56 border border-[#07F8EA] rounded-lg w-[500px] h-[180px] p-4 left-[55.0%]  hover:bg-[#1e1e20] hover:backdrop-blur-md hover:bg-opacity-30 transition-all duration-300">
+        <div className="absolute right-0 bottom-56 border border-[#07F8EA] rounded-lg w-[500px] h-[180px] p-4 hover:bg-[#1e1e20] hover:backdrop-blur-md hover:bg-opacity-30 transition-all duration-300">
           <h1 className="text-[#07F8EA] text-3xl">Team</h1>
           <p className="text-[#ccc] text-[13px] mt-4 font-normal">
             Collaboration is key as students bring together their unique skills
@@ -60,10 +51,7 @@ const Schedule = () => {
           </p>
           <div className="h-[1px] w-[52px] left-[4px] absolute top-[34px] -translate-x-14 bg-[#07F8EA]"></div>
         </div>
-        <div className=""><h1 className="text-teal-50 absolute top-[70%] right-[55%] text-[30px] text-opacity-40 hover:blur-none hover:text-opacity-100 duration-300 ">26 Oct 2024</h1></div>
-        </div>
-        <div>
-        <div className="absolute bottom-0 translate-y-16 border border-[#07F8EA] rounded-lg w-[500px] h-[180px] p-4 right-[55.0%]   hover:bg-[#1e1e20] hover:backdrop-blur-md hover:bg-opacity-30 transition-all duration-300">
+        <div className="absolute bottom-0 translate-y-16 border border-[#07F8EA] rounded-lg w-[500px] h-[180px] p-4 hover:bg-[#1e1e20] hover:backdrop-blur-md hover:bg-opacity-30 transition-all duration-300">
           <h1 className="text-[#07F8EA] text-3xl">Hackathon</h1>
           <p className="text-[#ccc] text-[13px] mt-4 font-normal">
             Every truly novel concept appears insane at first, so come present
@@ -71,8 +59,6 @@ const Schedule = () => {
             and present hackathon presentations.
           </p>
           <div className="h-[1px] top-[23px] right-[9px] translate-x-[60px] w-[51px] bg-[#07F8EA] absolute"></div>
-        </div>
-        <div className=""><h1 className="text-teal-50 absolute top-[91.5%] left-[55%] text-[30px] text-opacity-40 hover:blur-none hover:text-opacity-100 duration-300 ">3 Nov 2024</h1></div>
         </div>
       </div>
     </div>
