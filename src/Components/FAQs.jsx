@@ -1,4 +1,4 @@
-import Accordians from "./Other Components/Accordian/Accordians";
+import Accordians from "./Nested Components/Accordian/Accordians";
 
 const FAQs = () => {
   return (
