@@ -3,7 +3,7 @@ const Footer = () => {
     <div className="w-9/12 mx-auto mt-24 flex flex-col gap-16 relative">
       <div className="w-full flex gap-40">
         <div className="w-[50%]">
-          <h1 className="text-[#8198AF] text-[45px] font-semibold ">
+          <h1 className="text-[#8198AF] text-[45px] font-semibold hover:scale-110 transition-transform duration-300">
             Contact Us
           </h1>
           <div className="flex mt-10 gap-10 items-center">
@@ -45,7 +45,7 @@ const Footer = () => {
           </svg>
         </div>
         <div>
-          <h1 className="text-[#8198AF] text-[45px] font-semibold ">
+          <h1 className="text-[#8198AF] text-[45px] font-semibold hover:scale-110 transition-transform duration-300">
             Social Links
           </h1>
           <div>
