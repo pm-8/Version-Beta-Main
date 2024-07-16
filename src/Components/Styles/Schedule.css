@@ -1,0 +1,24 @@
+.date-visible{
+    display: none;
+}
+@media (max-width:1108px){
+    .to-left{
+        left:10%;
+        width: 100%;
+        height: max-content;
+    }
+    .to-right{
+        left:-10%;
+        width: 100%;
+        height: max-content;
+    }
+    .line-pointer{
+        visibility: hidden;
+    }
+    .date{
+        visibility: hidden;
+    }
+    .date-visible{
+        display: block;
+    }
+}

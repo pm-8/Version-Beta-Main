@@ -1,7 +1,7 @@
 const Footer = () => {
   return (
-    <div className="w-9/12 mx-auto mt-24 flex flex-col gap-16 relative">
-      <div className="w-full flex gap-40">
+    <div className="w-9/12 mx-auto mt-24 flex flex-col gap-16 relative md:flex-col">
+      <div className="w-full flex gap-40 footer-section">
         <div className="w-[50%]">
           <h1 className="text-[#8198AF] text-[45px] font-semibold ">
             Contact Us
