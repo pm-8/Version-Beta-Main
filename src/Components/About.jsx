@@ -1,16 +1,18 @@
-import './Styles/About.css'
 const About = () => {
   return (
     <div id="about" className="w-9/12 mx-auto mt-24 flex flex-col gap-16">
       <h1 className="text-[#897be2] text-center text-[45px] uppercase font-bold">
         About
       </h1>
-      <div className="container"  >
+      <div className="flex flex-col items-center gap-10 lg:flex-col xl:flex-row">
         <img
           src="/Images/aboutImg.png"
-          className="rounded-lg w-[45vw]"
+          alt=""
+          width="500"
+          height="500"
+          className="rounded-lg animate-pulse w-full lg:w-full xl:w-[45%]"
         />
-        <p className="text-[#72a5af] w-[45%] text-lg ">
+        <p className="text-[#72a5af] w-full lg:w-full xl:w-[45%] text-lg">
           Version Beta is the amalgamation of some of the nation&apos;s greatest
           technological minds, with an ideal platform for technology enthusiasts
           to demonstrate their talents and ingenuity. After successfully
