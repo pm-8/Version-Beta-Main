@@ -1,0 +1,15 @@
+@media (max-width:900px){
+    .footer-section{
+        display: flex;
+        flex-direction: column;
+    }
+    .centralizing{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .line-display{
+        display: none;
+    }
+}

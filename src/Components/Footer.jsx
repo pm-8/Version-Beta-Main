@@ -1,12 +1,13 @@
+import "./Styles/Footer.css"
 const Footer = () => {
   return (
-    <div className="w-9/12 mx-auto mt-24 flex flex-col gap-16 relative">
-      <div className="w-full flex gap-40">
-        <div className="w-[50%]">
-          <h1 className="text-[#8198AF] text-[45px] font-semibold hover:scale-110 transition-transform duration-300">
+    <div className="w-9/12 mx-auto mt-24 flex flex-col gap-16 relative md:flex-col">
+      <div className="w-full flex gap-40 footer-section ">
+        <div className="w-[50%]  centralizing">
+          <h1 className="text-[#8198AF] text-[45px] font-semibold ">
             Contact Us
           </h1>
-          <div className="flex mt-10 gap-10 items-center">
+          <div className="flex mt-10 gap-10 items-center ">
             <img src="/Images/phone.png" alt="" className="w-10 h-10" />
             <div>
               <div className="text-[#B5B5B6] text-lg font-medium flex gap-12">
@@ -41,11 +42,11 @@ const Footer = () => {
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
           >
-            <line x1="0.5" y1="271.017" x2="0.5" stroke="#444" />
+            <line x1="0.5" y1="271.017" x2="0.5" stroke="#444" className="line-display"/>
           </svg>
         </div>
         <div>
-          <h1 className="text-[#8198AF] text-[45px] font-semibold hover:scale-110 transition-transform duration-300">
+          <h1 className="text-[#8198AF] text-[45px] font-semibold ">
             Social Links
           </h1>
           <div>
