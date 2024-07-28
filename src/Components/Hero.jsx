@@ -19,13 +19,13 @@ const Hero = () => {
             </p>
           </div>
           <div className="w-full lg:w-full xl:w-full">
-            <img src="/Images/VB LOGO--main.png" alt="" className="animate-pulse w-full" />
-            <div className="mt-4 text-[#ccc] flex flex-col md:flex-row lg:gap-24 lg:flex-row xl:gap-24 xl:flex-row gap-4 ml-10">
-              <div className="flex items-center gap-3">
+            <img src="/Images/VB LOGO--main.png" alt="" className="w-full animate-pulse scale-100 sm:scale-100 md:scale-100 lg:scale-150 xl:scale-100 lg:mb-20 hover:scale-110 transition-transform duration-300" />
+            <div className="mt-4 text-[#ccc] flex flex-col md:flex-row lg:gap-12 lg:flex-row xl:gap-16 xl:flex-row gap-4 ml-10">
+              <div className=" flex items-center gap-3">
                 <img src="/Images/calendar.png" alt="" className="w-[1.5rem]" />
                 <p className="text-sm md:text-base lg:text-base xl:text-lg font-medium ">Oct 5th - Nov 5th 2024</p>
               </div>
-              <div className="flex items-center gap-3">
+              <div className=" flex items-center gap-3">
                 <img src="/Images/location1.png" alt="" className="w-[1.5rem]" />
                 <p className="text-sm md:text-base lg:text-base xl:text-lg font-medium ">MANIT, Bhopal</p>
               </div>
