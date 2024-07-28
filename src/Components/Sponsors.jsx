@@ -1,10 +1,10 @@
 const Sponsors = () => {
   return (
     <div id="sponsors" className="w-8/12 mx-auto mt-24 flex flex-col gap-16">
-      <h1 className="text-[#897be2] text-center text-[45px] uppercase font-bold hover:scale-110 transition-transform duration-300">
+      <h1 className="text-[#897be2] mx-auto text-[45px] uppercase font-bold hover:scale-110 transition-transform duration-300">
         Sponsors
       </h1>
-      <div className="grid grid-cols-3 grid-rows-3 gap-x-2 gap-y-6 place-items-center">
+      <div className="grid grid-cols-3 grid-rows-3 gap-4 md:gap-x-6 md:gap-y-6 lg:gap-x-2 lg:gap-y-6 xl:gap-x-2 xl:gap-y-6 place-items-center">
         <img
           src="/Images/devfolio.png"
           alt=""
@@ -43,12 +43,12 @@ const Sponsors = () => {
         <img
           src="/Images/LWT_logo.webp"
           alt=""
-          className="w-44 mt-4 hover:scale-110 transition-transform duration-300"
+          className="w-44 mt-4 scale-90 md:scale-[80%] lg:scale-95 xl:scale-95 hover:scale-110 transition-transform duration-300"
         />
         <img
           src="/Images/dst_logo_circle.png"
           alt=""
-          className="w-36 mt-4 hover:scale-110 transition-transform duration-300"
+          className="w-36 mt-4 scale-75 lg:scale-95 xl:scale-95 hover:scale-110 transition-transform duration-300"
         />
       </div>
     </div>
