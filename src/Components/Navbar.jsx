@@ -6,7 +6,7 @@ const Navbar = () => {
         <a href="https://www.istemanit.in/">
           <img src="/Images/Logo.svg" alt="logo" />
         </a>
-        <div className="content flex items-center gap-2 md:gap-4 lg:gap-6 xl:gap-10 font-medium text-lg ">
+        <div id="nav-content" className=" flex items-center gap-2 md:gap-4 lg:gap-6 xl:gap-10 font-medium text-lg ">
           <a href="/" className="group">
             Home
             <div className="w-0 h-[1px] bg-[#6054aa] rounded-full group-hover:w-full transition-all duration-500"></div>

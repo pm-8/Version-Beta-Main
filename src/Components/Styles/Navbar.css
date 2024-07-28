@@ -1,12 +1,13 @@
 #navbar{
     display: flex;
 }
+
 .hamburger{
     display:none;
 }
 @media (max-width : 800px) {
-    .content{
-        display : none;
+    #nav-content{
+        display: none !important;
     }
     .hamburger{
         display:block;
