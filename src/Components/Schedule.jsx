@@ -51,7 +51,7 @@ const Schedule = () => {
         </div>
         <div className="date"><h1 className="text-teal-50 absolute top-[46.5%] left-[55%] text-[30px] text-opacity-40 hover:blur-none hover:text-opacity-100 duration-300 ">5 Oct 2024 - 25 Oct 2024</h1></div>        </div>
         <div>
-        <div className="absolute bottom-56 border border-[#07F8EA] rounded-lg w-[500px] h-[180px] p-4 left-[55.0%]  hover:bg-[#1e1e20] hover:backdrop-blur-md hover:bg-opacity-30 transition-all duration-300 to-right">
+        <div  className="absolute bottom-56 border border-[#07F8EA] rounded-lg w-[500px] h-[180px] p-4 left-[55.0%]  hover:bg-[#1e1e20] hover:backdrop-blur-md hover:bg-opacity-30 transition-all duration-300 to-right">
           <h1 className="text-[#07F8EA] text-3xl flex">Team<p className = "date-visible">-(5Oct)</p></h1>
           <p className="text-[#ccc] text-[13px] mt-4 font-normal">
             Collaboration is key as students bring together their unique skills
