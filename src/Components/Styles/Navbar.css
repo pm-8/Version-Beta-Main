@@ -1,0 +1,16 @@
+#navbar{
+    display: flex;
+}
+.hamburger{
+    display:none;
+}
+@media (max-width : 800px) {
+    .content{
+        display : none;
+    }
+    .hamburger{
+        display:block;
+        width:10vh;
+        height:10vh;
+    }
+}
