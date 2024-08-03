@@ -4,7 +4,7 @@ const Hero = () => {
   return (
     <>
       <div className="w-9/12 mx-auto mt-28">
-        <div className="flex flex-col-reverse items-center lg:flex-row xl:flex-row gap-20">
+        <div className="flex flex-col-reverse items-center lg:flex-row xl:flex-row gap-20 -mt-0 md:mt-0 lg:mt-0 xl:mt-0">
           <div className="w-full text-center lg:text-left xl:text-left">
             <h1 className="text-[50px] text-[#ddd] font-semibold leading-tight animate-pulse">
               Ready to Debug Your <br />
@@ -18,7 +18,7 @@ const Hero = () => {
               line of code a victory!
             </p>
           </div>
-          <div className="w-full lg:w-full xl:w-full">
+          <div className="w-full lg:w-full xl:w-full mt-0 lg:-mt-20">
             <img src="/Images/VB LOGO--main.png" alt="" className="w-full animate-pulse scale-100 sm:scale-100 md:scale-100 lg:scale-150 xl:scale-100 lg:mb-20 hover:scale-110 transition-transform duration-300" />
             <div className="mt-4 text-[#ccc] flex flex-col md:flex-row lg:gap-12 lg:flex-row xl:gap-16 xl:flex-row gap-4 ml-10">
               <div className=" flex items-center gap-3">
