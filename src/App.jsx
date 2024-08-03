@@ -26,9 +26,10 @@ function App() {
         <>
           <div className="w-[100%] app">
             <div className="w-full h-full ">
-              <video autoPlay muted loop id="video-background">
+              <video autoPlay muted loop id="video-background" className="hidden lg:block xl:block">
                 <source src="/Images/bg9.mp4" type="video/mp4"></source>
               </video>
+              <img src="/Images/bg.png" alt="" id="background" className="block lg:hidden xl:hidden"/>
             </div>
             <Navbar />
 
