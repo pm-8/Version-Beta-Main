@@ -3,7 +3,7 @@ const Navbar = () => {
   return (
     <>
       <div id="navbar" className="w-full mx-auto  md:flex justify-around items-center text-[#ddd] pt-4">
-        <a href="https://www.istemanit.in/">
+        <a href="https://www.istemanit.in/" target="blank">
           <img src="/Images/Logo.svg" alt="logo" />
         </a>
         <div id="nav-content" className=" flex items-center gap-2 md:gap-4 lg:gap-6 xl:gap-10 font-medium text-lg ">
